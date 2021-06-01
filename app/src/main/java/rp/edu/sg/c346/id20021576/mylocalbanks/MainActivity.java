@@ -148,6 +148,7 @@ public class MainActivity extends AppCompatActivity {
             tvUOB.setText(getString(R.string.uob));
             visit = getString(R.string.visit);
             call = getString(R.string.call);
+            fav = getString(R.string.fav);
             return true;
         } else if (id == R.id.ChineseSelection) {
             tvOCBC.setText(R.string.chiOCBC);
@@ -163,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
             tvUOB.setText(R.string.error);
             visit = getString(R.string.error);
             call = getString(R.string.error);
-            fav = getString(R.string.fav);
+            fav = getString(R.string.error);
         }
 
         return super.onOptionsItemSelected(item);
